@@ -1,3 +1,4 @@
+package EstruturaDados;
 public class Elemento{
     private String valor;
     private Elemento proximo;
@@ -5,7 +6,7 @@ public class Elemento{
     public Elemento(String novoValor){
         this.valor = novoValor;
     }
-    
+
     public String getValor() {
         return valor;
     }
