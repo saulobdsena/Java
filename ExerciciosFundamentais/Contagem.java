@@ -19,5 +19,7 @@ public class Contagem {
         }
 
         System.out.println("O numero de alunos aprovados é de: " + contador);
+
+        sc.close();
     }
 }
