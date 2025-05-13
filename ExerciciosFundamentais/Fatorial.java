@@ -16,5 +16,7 @@ public class Fatorial {
         }
 
         System.out.println("O fatorial de " + n + " é " + fatorial);
+
+        sc.close();
     }
 }
