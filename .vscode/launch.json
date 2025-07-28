@@ -4,7 +4,20 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
+        {
+            "type": "java",
+            "name": "Projeto1Cenario2GP1Ajustado",
+            "request": "launch",
+            "mainClass": "Projeto1Cenario2GP1Ajustado",
+            "projectName": "Java_b2a33424"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "Java_b2a33424"
+        },
         {
             "type": "java",
             "name": "Current File",
