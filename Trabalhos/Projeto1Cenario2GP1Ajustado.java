@@ -1,3 +1,5 @@
+package Trabalhos;
+
 public class Projeto1Cenario2GP1Ajustado {
     static final int N = 6;
     static String[] estacoes = {"Shopping", "Parque", "Terminal", "Centro", "Praça", "Avenida"};
@@ -192,12 +194,12 @@ public class Projeto1Cenario2GP1Ajustado {
 
         // Gerando fechos, caso as propriedades não sejam atendidas
         if (!isReflexiva(matrizMetro)) {
-            matrizMetro = fechoReflexivo(matrizMetro);
+            fechoReflexivo(matrizMetro);
             imprimirMatriz(matrizMetro, "Fecho Reflexivo do Metrô:");
         }
 
         if (!isSimetrica(matrizMetro)) {
-            matrizMetro = fechoSimetrico(matrizMetro);
+             fechoSimetrico(matrizMetro);
             imprimirMatriz(matrizMetro, "Fecho Simétrico do Metrô:");
         }
 
