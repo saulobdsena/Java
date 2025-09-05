@@ -19,13 +19,15 @@ public class TurmaDao {
         listaDao.add(a);
     }
 
-    public void update(){
+    public void update(int index, Aluno a) {
+        if (index >= 0 && index < listaDao.size()) {
+            listaDao.set(index, a);
+
+        }
+    }
+        public void delete () {
+            List<Aluno> listDao = new ArrayList<>();
+            listDao.remove(new Aluno("Andre", "433555"));
+        }
 
     }
-
-    public void delete(){
-        List<Aluno> listDao = new ArrayList<>();
-        listDao.remove(new Aluno("Andre", "433555"));
-    }
-
-}
