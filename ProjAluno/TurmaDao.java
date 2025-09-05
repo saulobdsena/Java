@@ -22,7 +22,6 @@ public class TurmaDao {
     public void update(int index, Aluno a) {
         if (index >= 0 && index < listaDao.size()) {
             listaDao.set(index, a);
-
         }
     }
         public void delete () {
