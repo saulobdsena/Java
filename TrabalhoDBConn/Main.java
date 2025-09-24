@@ -7,12 +7,12 @@ public class Main {
 
         db.conectar("Minha primeira instancia na main");
 
-        Teste1 t1 = new Teste1();
+        Test1 t1 = new Test1();
         Test2 t2 = new Test2();
         Test3 t3 = new Test3();
 
-        t1.EscreveLog();
-        t2.EscreveLog();
-        t3.EscreveLog();
+        t1.Escreverlog();
+        t2.Escreverlog();
+        t3.Escreverlog();
     }
 }
